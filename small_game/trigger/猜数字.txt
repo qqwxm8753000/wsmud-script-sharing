@@ -1,0 +1,11 @@
+频道：世界
+发言人：空
+忽略发言人：自己名字
+关键字：猜数字
+内容：
+@js MUDLite.clear();MUDLite.start()
+tm 猜数字：十秒内房间频道说出自己的数字 输入0~100数字 
+@wait 10000
+@js MUDGuess();
+@js inteam.forEach(e => SendCommand(`team remove ${e}`));
+@js inteam=[];

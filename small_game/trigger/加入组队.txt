@@ -1,0 +1,10 @@
+频道：世界
+发言人：空
+忽略发言人：自己名字
+关键字：猜数字
+内容：
+chat 【(name)】同意组队申请加入游戏
+team add (id)
+@js (!Array.isArray(inteam) && (inteam = []), inteam.push("(id)"));
+@wait 2000;
+tm 输入：开始猜数字进行游戏

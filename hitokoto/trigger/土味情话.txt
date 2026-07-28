@@ -1,0 +1,4 @@
+ 频道：世界
+发言人：空
+忽略发言人：自己名字
+内容： @js fetch('https://api.oddfar.com/yl/q.php?c=1001&encode=text&t='+Date.now()).then(r=>r.text()).then(d=>SendCommand('chat 「'+d.replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim()+'」'));

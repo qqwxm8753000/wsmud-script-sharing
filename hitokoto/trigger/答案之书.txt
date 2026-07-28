@@ -1,0 +1,4 @@
+ 频道：世界
+发言人：空
+忽略发言人：自己名字
+内容： @js fetch('https://60s.viki.moe/v2/answer?encoding=json').then(r=>r.json()).then(d=>SendCommand("chat 答案之书：「"+d.data.answer+"」 ("+d.data.answer_en+")"))

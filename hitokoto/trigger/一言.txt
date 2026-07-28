@@ -1,0 +1,4 @@
+频道：世界
+发言人：空
+忽略发言人：自己名字
+内容：@js (async()=>{let r=await fetch('https://v1.hitokoto.cn/').then(r=>r.json()).catch(()=>null);if(!r||!r.hitokoto)return;SendCommand(`chat 「${r.hitokoto}」—— ${r.from_who||''} ${r.from&&r.from!=='网络'?`《${r.from}》`:r.from||''}`.replace(/\s+/g,' ').trim());})();
