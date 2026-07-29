@@ -49,11 +49,8 @@ wsmud-script-sharing/
 
 ### 前置准备
 
-1. 安装浏览器插件 **Tampermonkey**（油猴）
-2. 安装以下必要插件：
-   - **wsmud_pluginss** — [GreasyFork 链接](https://greasyfork.org/zh-CN/scripts/371372-wsmud-pluginss)
-   - **wsmud_Trigger** — [GreasyFork 链接](https://greasyfork.org/zh-CN/scripts/378984-wsmud-trigger)
-3. 在武神MUD2游戏中打开机器人界面
+1. 安装游戏脚本
+2. 在武神MUD2游戏中打开机器人界面
 
 ### 第一步：添加触发器（Trigger）
 
@@ -68,7 +65,7 @@ wsmud-script-sharing/
 | **发言人** | 通常留空 |
 | **忽略发言人** | 一般填"自己名字"，避免自己触发自己 |
 | **关键字** | 文件内指定的触发关键词 |
-| **内容** | 粘贴文件内 `@js ...` 开头的 JavaScript 代码部分 |
+| **内容** | 粘贴文件内 `@js ...` 开头的代码部分 |
 
 4. 保存并启用
 
